@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Events booked in this Hall</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .form-container label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"] {
+      width: 100%;
+      padding: 5px;
+    }
+
+    .form-container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .form-container input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Details of events booked in a hall</h1>
+  <div class="form-container">
+    <form class="generated-form" method="POST" action="UI2searchHall.php" target="_blank">
+      <fieldset>
+        <label for="hallNumber">Enter the Hall Number:</label>
+        <input type="text" id="hallNumber" name="hallNumber">
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>

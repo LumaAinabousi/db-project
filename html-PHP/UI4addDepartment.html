@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .form-container label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"] {
+      width: 100%;
+      padding: 5px;
+    }
+
+    .form-container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .form-container input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Add New Department</h1>
+  <div class="form-container">
+    <form class="generated-form" method="POST" action="U4addDepartment.php" target="_blank">
+      <fieldset>
+        <label for="depName">Department Name:</label>
+        <input type="text" id="depName" name="depName">
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+
+        <label for="edate">Establishment Date:</label>
+        <input type="date" id="edate" name="edate">
+
+        <label for="mSSN">Manager SSN:</label>
+        <input type="text" id="mSSN" name="mSSN">
+
+
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
