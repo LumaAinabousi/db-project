@@ -19,5 +19,6 @@ SQL
 * Entity-Relationship Diagrams (ERDs): Utilized for conceptualizing and visualizing the database structure.
 * Schemas: Defined to outline the structure and organization of the database.
 
-NOTE: This project mainly focuses on database design, ERDs, and schema.
+## Primary Focus of The Project:
+This project's main focus lies in database design, ERDs, SQL and schema.
 
